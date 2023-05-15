@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.botoesPrincipais {
+    background-color: #FF69B4 !important;
+    border-color: #FF69B4 !important;
+}
+.playlist-card {
+    background-color: #FFE4E1;
+    border-color: #FF69B4;
+}
+
+ul {
+    list-style: none;
+}
+.playlist-card {
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius:  1rem;
+    visibility: hidden;
+}
+.playlist-card.ativo {
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius:  1rem;
+    visibility: visible;
+}
+
+#share-playlist-button {
+    visibility: hidden;
+}
+
+#share-playlist-button.ativo {
+    visibility:visible;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rosybrown;
+}
